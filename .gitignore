@@ -1,0 +1,4 @@
+
+# Large local data files
+/data/*.csv
+
