@@ -3,3 +3,6 @@
 # Large local data files
 /data/*.csv
 
+
+# Large generated arrays
+clean_images.npy
