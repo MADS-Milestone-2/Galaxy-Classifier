@@ -2,6 +2,8 @@
 5x127x127_training_with_morphology.csv
 # Large local data files
 /data/*.csv
+/data/*.h5
+/data/*.hdf5
 
 
 # Large generated arrays
