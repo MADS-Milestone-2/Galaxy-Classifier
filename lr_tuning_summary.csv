@@ -1,0 +1,2 @@
+best_hyperparameters,cv_best_macro_f1,test_macro_f1,test_weighted_f1,test_minority_recall
+"{'model__C': 10.0, 'model__class_weight': None, 'model__max_iter': 3000, 'model__penalty': 'l1', 'model__solver': 'saga'}",0.22224472612844998,0.22411708955450088,0.5413153670067512,0.0
