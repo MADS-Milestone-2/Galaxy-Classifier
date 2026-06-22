@@ -1,0 +1,4 @@
+Model,Macro F1,Weighted F1,Minority Recall,Evaluation Protocol
+"CNN (ResNet18, 5-channel)",0.7921285245892714,0.904468030757034,0.6101694915254238,Holdout best run
+Logistic Regression,0.22411708955450088,0.5413153670067512,0.0,Holdout tuned model
+Random Forest,0.3702250199621084,0.6087865227942614,0.014583333333333334,Holdout tuned model
