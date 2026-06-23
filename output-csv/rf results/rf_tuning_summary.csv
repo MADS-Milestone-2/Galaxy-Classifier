@@ -1,0 +1,2 @@
+best_hyperparameters,cv_best_macro_f1,test_macro_f1,test_weighted_f1,test_minority_recall
+"{'class_weight': 'balanced_subsample', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'n_estimators': 500}",0.3763483093713104,0.3702250199621084,0.6087865227942614,0.014583333333333334
