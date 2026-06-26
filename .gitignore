@@ -8,3 +8,9 @@
 
 # Large generated arrays
 clean_images.npy
+
+# Generated embedding artifacts
+embeddings/
+
+# Optional: ignore newly generated model checkpoints
+models/**/*.pt

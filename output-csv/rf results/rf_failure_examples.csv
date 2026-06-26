@@ -1,0 +1,4 @@
+index,g_cmodel_mag,r_cmodel_mag,i_cmodel_mag,z_cmodel_mag,y_cmodel_mag,true_label,pred_label,failure_category,true_class_name,pred_class_name
+6,20.6251221,18.9864311,18.2940979,17.9894295,17.8179665,1,2,true_1_pred_2,Pseudobulge / Transition,ETG / Classical Bulge
+19,21.2916813,21.700201,21.7814312,21.5823593,21.2124863,0,1,true_0_pred_1,LTG / Disk,Pseudobulge / Transition
+36,21.7347565,20.8539886,20.016552,19.6863766,19.5535049,1,0,true_1_pred_0,Pseudobulge / Transition,LTG / Disk
