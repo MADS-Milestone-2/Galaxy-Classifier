@@ -1,0 +1,4 @@
+Method Family,Representation,Best Silhouette,Davies-Bouldin,Calinski-Harabasz,Clusters,Noise Fraction
+CNN-embedding KMeans,CNN embedding vectors,0.9937203526496888,,,2,0.0
+Tabular KMeans,Photometric + morphology tabular features,0.33660089467784987,1.1578416661246966,30006.73979106172,2,0.0
+DBSCAN,Tabular morphology/flux features,,,,1,0.27839450953938205
