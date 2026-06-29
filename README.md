@@ -20,4 +20,13 @@ Step-by-Step instructions for Tk:
 4. For the first window, choose the Training dataset. Another window will open, and you should choose you testing data set. When the third window opens, choose the validation dataset.
 5. Resume the notebook by continuing with the following cells.
 
+# Methodology
+
+## Supervised Machine Learning
+A logistic regression model and random forest model were trained on the tabular data from the GalaxyML. 
+
+## Unsupervised Machine Learning
+We used DBSCAN and KMeans to find underlying patterns in the data, an unsupervised CNN model to create embeddings. We operated directly on the photometric data without the sersic index or labels. 
+We used the embeddings created by the unsupervise CNN as features in our supervised models which improved their performances. 
+
    
