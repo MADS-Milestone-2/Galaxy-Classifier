@@ -14,3 +14,8 @@ embeddings/
 
 # Optional: ignore newly generated model checkpoints
 models/**/*.pt
+
+# Local unsupervised artifact outputs
+jwst_autoencoder_7ch.pt
+output-csv/jwst_unsupervised/jwst_autoencoder_training_history.csv
+output-csv/jwst_unsupervised/jwst_unsup_cluster_scores.csv
