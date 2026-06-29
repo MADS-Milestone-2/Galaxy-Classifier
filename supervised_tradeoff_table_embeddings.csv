@@ -1,0 +1,4 @@
+Model,Macro F1,Weighted F1,Minority Recall,Evaluation Protocol
+"CNN (ResNet18, 5-channel)",0.7921285245892714,0.904468030757034,0.6101694915254238,Best CNN run (validation)
+Logistic Regression (CNN embeddings),0.7449270036171416,0.8910640251396453,0.8218884120171673,Holdout on test embeddings
+Random Forest (CNN embeddings),0.795933067176653,0.9108504133702562,0.5879828326180258,Holdout on test embeddings

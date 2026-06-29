@@ -1,0 +1,6 @@
+Model,Feature Representation,Best Hyperparameters,Macro F1,Weighted F1,Minority-Class Recall,Notes
+"CNN (ResNet18, 5-channel)","5-band image tensor (g, r, i, z, y); spatial pixel structure","{'lr': np.float64(0.001), 'batch_size': 32, 'weight_decay': np.float64(0.0001), 'optimizer': 'adamw', 'epochs': 12, 'patience': 5, 'seed': 42}",0.7921285245892714,0.904468030757034,0.6101694915254238,Best run: 20260619-145503_lr0.001_bs32_wd0.0001 | grid_run_2
+Logistic Regression,Tabular photometric/morphology summary features,TBD (run LR tuning and/or save lr_tuning_summary.csv),,,,Tabular baseline on photometric/morphology features
+Random Forest,Tabular photometric/morphology summary features,TBD (run RF tuning and/or save rf_tuning_summary.csv),,,,Tree ensemble on tabular features
+Logistic Regression (CNN embeddings),Fixed CNN embedding vector,"solver=saga, class_weight=balanced, max_iter=3000",0.7449270036171416,0.8910640251396453,0.8218884120171673,Embedding-space classifier (test); acc=0.8841
+Random Forest (CNN embeddings),Fixed CNN embedding vector,"n_estimators=500, class_weight=balanced_subsample, random_state=42",0.795933067176653,0.9108504133702562,0.5879828326180258,Embedding-space classifier (test); acc=0.9120
